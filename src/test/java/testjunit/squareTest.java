@@ -25,6 +25,9 @@ public class squareTest {
             double actual = s.area();
             double delta = 0.0001; // precision used for comparing doubles
             assertEquals(expected, actual, delta);
+            //for more assert class options see junit javadoc at sourceforge: 
+            //http://junit.sourceforge.net/javadoc/org/junit/Assert.html
+            
     }
 
     /**
