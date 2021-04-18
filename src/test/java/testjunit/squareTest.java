@@ -23,7 +23,7 @@ public class squareTest {
             square s = new square(2);
             double expected = 4;
             double actual = s.area();
-            double delta = 0.0001; // precission used for comparing doubles
+            double delta = 0.0001; // precision used for comparing doubles
             assertEquals(expected, actual, delta);
     }
 
