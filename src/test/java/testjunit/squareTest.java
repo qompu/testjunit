@@ -27,7 +27,8 @@ public class squareTest {
             assertEquals(expected, actual, delta);
             //for more assert class options see junit javadoc at sourceforge: 
             //http://junit.sourceforge.net/javadoc/org/junit/Assert.html
-            
+            // for Fixture with @Before see
+            //http://junit.sourceforge.net/doc/cookbook/cookbook.htm
     }
 
     /**
